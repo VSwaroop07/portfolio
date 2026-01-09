@@ -62,7 +62,15 @@ function App() {
         </div>
 
         <div id="star-border-btn" className="absolute bottom-10 left-1/2 -translate-x-1/2 z-50">
-          <StarBorder as="button" className="custom-class" color="magenta" speed="5s">
+          <StarBorder
+            as="a"
+            href="https://drive.google.com/file/d/1fmXMAHyF47g5kfr5qFmhXXpDd0utKr4z/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-class"
+            color="magenta"
+            speed="5s"
+          >
             Grab My CV
           </StarBorder>
         </div>

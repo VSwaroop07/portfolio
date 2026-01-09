@@ -29,7 +29,7 @@ const About = () => {
     }, []);
 
     return (
-        <section id="about" ref={containerRef} className="min-h-[80vh] flex flex-col justify-center items-center py-20 px-6 relative">
+        <section id="about" ref={containerRef} className="min-h-[80vh] flex flex-col justify-center items-center pt-40 pb-20 px-6 relative">
             <div className="max-w-4xl mx-auto text-center z-10">
                 <h2 className="about-text text-xl md:text-2xl font-semibold text-cyan-400 mb-6 tracking-wide uppercase">
                     About Me
